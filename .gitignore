@@ -1,0 +1,33 @@
+
+# Kerberos keytabs (contain secret keys — NEVER commit these)
+
+*.keytab
+
+*.ccache
+
+
+
+# Samba private directory (contains hashed passwords)
+
+private/
+
+
+
+# SSH keys
+
+*.pem
+
+*.key
+
+id_rsa*
+
+
+
+# Editor junk
+
+.vscode/
+
+*.swp
+
+*~
+
